@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88d68111-b0cd-4a81-a3f2-a71489b57de6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/css/wp-analytify-style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/images/wp-analytics-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/includes/analytify-dashboard.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/includes/analytify-settings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/appengineauth.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/fileupload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/idtoken.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/key.p12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/multi-api.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/service-account.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/simple-query.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/simplefileupload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/styles/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/templates/base.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/examples/user-example.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/AppIdentity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/AssertionCredentials.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/LoginTicket.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/OAuth2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Auth/Simple.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Cache/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Cache/Apc.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Cache/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Cache/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Cache/Memcache.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Cache/Null.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Client.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Collection.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Http/Batch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Http/CacheParser.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Http/MediaFileUpload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Http/REST.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Http/Request.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/IO/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/IO/Curl.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/IO/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/IO/Stream.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/IO/cacerts.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Model.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/AdExchangeBuyer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/AdExchangeSeller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/AdSense.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/AdSenseHost.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Analytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/AndroidPublisher.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/AppState.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Appsactivity.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Audit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Autoscaler.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Bigquery.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Blogger.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Books.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Calendar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/CivicInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/CloudMonitoring.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Compute.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Coordinate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Customsearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Datastore.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Dfareporting.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Directory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Dns.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/DoubleClickBidManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Doubleclicksearch.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Drive.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Freebase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Fusiontables.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Games.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/GamesManagement.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Genomics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Gmail.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/GroupsMigration.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Groupssettings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/IdentityToolkit.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Licensing.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Manager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/MapsEngine.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Mirror.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Oauth2.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Pagespeedonline.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Plus.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/PlusDomains.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Prediction.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Pubsub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/QPXExpress.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Replicapool.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Reports.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Reseller.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Resource.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Resourceviews.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/SQLAdmin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/ShoppingContent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/SiteVerification.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Spectrum.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Storage.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Tagmanager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Taskqueue.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Tasks.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Translate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Urlshortener.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Webfonts.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/Webmasters.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/YouTube.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Service/YouTubeAnalytics.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Signer/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Signer/P12.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Utils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Utils/URITemplate.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Verifier/Abstract.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/src/Google/Verifier/Pem.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/style/ruleset.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/AllTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/BaseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/OAuthHelper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/adsense/AdSenseTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/bootstrap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ApiBatchRequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ApiCacheParserTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ApiClientTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ApiMediaFileUploadTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ApiModelTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ApiOAuth2Test.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/AuthTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/CacheTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/GeneralTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/IoTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/RequestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/RestTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/ServiceTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/URITemplateTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/testdata/cacert.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/testdata/cacert.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/testdata/cert.p12" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/testdata/privkey.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/testdata/test.ini" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/general/testdata/test_public_key.pem" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/pagespeed/AllPageSpeedTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/pagespeed/PageSpeedTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/phpunit.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/plus/PlusTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/tasks/AllTasksTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/tasks/TasksTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/urlshortener/AllUrlShortenerTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/urlshortener/UrlShortenerTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/lib/google-api-php-client-master/tests/youtube/YouTubeTest.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/views/browser-stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/views/city-stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/views/country-stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/T0097-wordpress-muhammad-adnan-master/wp-analytify-simple.php" afterPath="" />
+    </list>
+    <ignored path="kz-crawler.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="kz-crawler" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="kz-crawler.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+              <folding>
+                <element signature="e#10#357#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kz-controller.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blocks.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <marker date="1468261117236" expanded="true" signature="241:478" ph="CREATE TABLE... ${$table_name}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="demo-plugin.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/demo-plugin/demo-plugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1802">
+              <caret line="106" column="81" selection-start-line="106" selection-start-column="71" selection-end-line="106" selection-end-column="81" />
+              <folding>
+                <marker date="1468255855868" expanded="true" signature="1606:1728" ph="..." />
+                <marker date="1468255855868" expanded="true" signature="1618:1656" ph="{...}" />
+                <marker date="1468255855868" expanded="true" signature="1676:1714" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore_missing_gitignore" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88d68111-b0cd-4a81-a3f2-a71489b57de6" name="Default" comment="" />
+      <created>1468256379871</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1468256379871</updated>
+      <workItem from="1468256382456" duration="5066000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5066000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-admin/js/theme.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/js/updates.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-918">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/link-add.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/demo-plugin/demo-plugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1802">
+          <caret line="106" column="81" selection-start-line="106" selection-start-column="71" selection-end-line="106" selection-end-column="81" />
+          <folding>
+            <marker date="1468255855868" expanded="true" signature="1606:1728" ph="..." />
+            <marker date="1468255855868" expanded="true" signature="1618:1656" ph="{...}" />
+            <marker date="1468255855868" expanded="true" signature="1676:1714" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
+          <folding>
+            <element signature="e#10#357#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <marker date="1468261117236" expanded="true" signature="241:478" ph="CREATE TABLE... ${$table_name}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
