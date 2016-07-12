@@ -1,5 +1,5 @@
 <?php
-class kzController
+class kzController extends WP_List_Table
 {
     public function __construct()
     {
