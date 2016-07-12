@@ -3,6 +3,7 @@ class kzController
 {
     public function __construct()
     {
+        define( 'MY_PLUGIN_PATH', ABSPATH . 'wp-content/plugins/kz-crawler' );
         if (is_admin()) {
             $this->init();
         }
@@ -10,15 +11,8 @@ class kzController
 
     public function init()
     {
-        define( 'MY_PLUGIN_PATH', ABSPATH . 'wp-content/plugins/kz-crawler' );
+
         require_once MY_PLUGIN_PATH.'/libs/simplehtmldom/simple_html_dom.php';
-
-        // Include 'blocks' table
-        include_once  MY_PLUGIN_PATH.'/app/models/blocks.php';
-
-        register_activation_hook( __FILE__, array( 'blocksModel', 'jal_install' ) );
-        register_activation_hook( __FILE__, array( 'blocksModel', 'jal_install_data' ) );
-
 
         // Add action
         add_action( 'admin_menu', array($this,'add_my_custom_menu') );
@@ -37,20 +31,18 @@ class kzController
         );
 
 
-        add_submenu_page('kz-crawler', 'Custom', 'Custom', 'manage_options', 'kz-crawler/custom', array($this, 'clivern_render_custom_page'));
+        add_submenu_page('kz-crawler', 'Add Block', 'Add Block', 'manage_options', 'kz-crawler/add-block', array($this, 'add_block'));
         add_submenu_page('kz-crawler', 'About', 'About', 'manage_options', 'kz-crawler/about', array($this, 'clivern_render_about_page'));
     }
 
     public function wporg_options_page(){
-
         echo 'hello';
-
     }
 
-    public function clivern_render_custom_page(){
+    public function add_block(){
         ?>
         <div class='wrap'>
-            <h2>Custom</h2>
+            <h2>Add New Blocks</h2>
         </div>
         <?php
     }

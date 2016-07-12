@@ -13,4 +13,8 @@
     */
 
 require_once('app/controllers/kz-controller.php');
+require_once('app/models/blocks.php');
+
+register_activation_hook( __FILE__, array( 'blocksModel', 'create_blocks_table' ) );
+
 ?>
