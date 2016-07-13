@@ -1,8 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88d68111-b0cd-4a81-a3f2-a71489b57de6" name="Default" comment="">
+    <list default="true" id="d1fae4a5-e5ac-404d-b69b-9b7e52795d9d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/block-controller.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/.htaccess" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/akismet.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/_inc/img/logo-full-2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/akismet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-admin.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet-widget.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/class.akismet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/index.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/get.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/notice.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/start.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/stats.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/views/strict.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/akismet/wrapper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/hello.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/kz-crawler.iml" afterPath="$PROJECT_DIR$/.idea/kz-crawler.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php" afterPath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php" afterPath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/views/create-block.php" afterPath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/views/create-block.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php" afterPath="$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php" />
     </list>
     <ignored path="kz-crawler.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,109 +51,58 @@
     <favorites_list name="kz-crawler" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="kz-crawler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="block-controller.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/block-controller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-5922">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#10#357#0#PHP" expanded="true" />
+                <marker date="1468400341676" expanded="true" signature="3787:3799" placeholder="..." />
+                <marker date="1468400341676" expanded="true" signature="15264:15278" placeholder="SELECT * FRO... ${$table_name}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kz-controller.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kz-controller.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-              <folding>
-                <element signature="n#add_my_custom_menu#0;n#kzController#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list-table-example.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/list-table-example.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="491" column="31" selection-start-line="491" selection-start-column="31" selection-end-line="491" selection-end-column="31" />
-              <folding>
-                <element signature="e#306#1037#0#PHP" expanded="false" />
-                <element signature="e#1041#1413#0#PHP" expanded="false" />
-                <element signature="e#1417#2527#0#PHP" expanded="false" />
-                <element signature="e#3450#4042#0#PHP" expanded="false" />
-                <element signature="e#4067#5649#0#PHP" expanded="false" />
-                <element signature="e#4086#4259#1#PHP" expanded="false" />
-                <element signature="e#4273#4461#1#PHP" expanded="false" />
-                <element signature="e#4475#4662#1#PHP" expanded="false" />
-                <element signature="e#4676#4856#1#PHP" expanded="false" />
-                <element signature="e#4870#5049#1#PHP" expanded="false" />
-                <element signature="e#5063#5254#1#PHP" expanded="false" />
-                <element signature="e#5268#5446#1#PHP" expanded="false" />
-                <element signature="e#5460#5638#1#PHP" expanded="false" />
-                <element signature="e#5657#5958#0#PHP" expanded="false" />
-                <element signature="n#__construct#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#6073#6338#0#PHP" expanded="false" />
-                <element signature="e#6094#6336#1#PHP" expanded="false" />
-                <element signature="e#6353#7677#0#PHP" expanded="false" />
-                <element signature="n#column_default#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#7736#7984#0#PHP" expanded="false" />
-                <element signature="e#7797#7857#0#PHP" expanded="false" />
-                <element signature="e#7870#7922#0#PHP" expanded="false" />
-                <element signature="e#7997#8984#0#PHP" expanded="false" />
-                <element signature="n#column_title#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#9075#9341#0#PHP" expanded="false" />
-                <element signature="e#9403#9597#0#PHP" expanded="false" />
-                <element signature="e#9611#10171#0#PHP" expanded="false" />
-                <element signature="n#column_cb#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#10218#10516#0#PHP" expanded="false" />
-                <element signature="e#10530#11386#0#PHP" expanded="false" />
-                <element signature="n#get_columns#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#11434#11653#0#PHP" expanded="false" />
-                <element signature="e#11692#12723#0#PHP" expanded="false" />
-                <element signature="n#get_sortable_columns#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#12790#12993#0#PHP" expanded="false" />
-                <element signature="e#13041#13899#0#PHP" expanded="false" />
-                <element signature="n#get_bulk_actions#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#13953#14005#0#PHP" expanded="false" />
-                <element signature="e#14044#14432#0#PHP" expanded="false" />
-                <element signature="n#process_bulk_action#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#14545#14680#0#PHP" expanded="false" />
-                <element signature="e#14702#15488#0#PHP" expanded="false" />
-                <element signature="n#prepare_items#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#15602#15681#0#PHP" expanded="false" />
-                <element signature="e#15731#16143#0#PHP" expanded="false" />
-                <element signature="e#16289#16587#0#PHP" expanded="false" />
-                <element signature="e#16684#16863#0#PHP" expanded="false" />
-                <element signature="e#16928#17495#0#PHP" expanded="false" />
-                <element signature="e#17567#17981#0#PHP" expanded="false" />
-                <element signature="n#usort_reorder#0;n#!!block;n#prepare_items#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-                <element signature="e#18501#19233#0#PHP" expanded="false" />
-                <element signature="e#19268#19488#0#PHP" expanded="false" />
-                <element signature="e#19552#19869#0#PHP" expanded="false" />
-                <element signature="e#19933#20141#0#PHP" expanded="false" />
-                <element signature="e#20253#20404#0#PHP" expanded="false" />
-                <element signature="e#20461#20561#0#PHP" expanded="false" />
-                <element signature="e#20570#20950#0#PHP" expanded="false" />
-                <element signature="e#20598#20948#1#PHP" expanded="false" />
-                <element signature="e#20966#21263#0#PHP" expanded="false" />
-                <element signature="e#21476#22030#0#PHP" expanded="false" />
-                <marker date="1468324227942" expanded="false" signature="9430:9442" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/readme.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="455">
+              <caret line="93" column="81" selection-start-line="93" selection-start-column="81" selection-end-line="93" selection-end-column="81" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create-block.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/views/create-block.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1008">
+              <caret line="48" column="53" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="blocks.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <marker date="1468408430927" expanded="true" signature="216:767" placeholder="CREATE TABLE... ${$table_name}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,10 +115,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/views/create-block.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php" />
-        <option value="$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/list-table-example.php" />
       </list>
     </option>
   </component>
@@ -149,9 +125,6 @@
   <component name="JsBuildToolPackageJson" detection-done="true" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
-  </component>
-  <component name="PhpServers">
-    <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
@@ -167,7 +140,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="1" id="Add" />
+    <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -185,8 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -284,6 +255,10 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -303,19 +278,57 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="custom-list-table-example" />
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="kz-crawler" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="ignore_missing_gitignore" value="true" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Phaser/gam602" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -333,12 +346,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -352,56 +359,42 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="88d68111-b0cd-4a81-a3f2-a71489b57de6" name="Default" comment="" />
-      <created>1468256379871</created>
+      <changelist id="d1fae4a5-e5ac-404d-b69b-9b7e52795d9d" name="Default" comment="" />
+      <created>1468405087636</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1468256379871</updated>
-      <workItem from="1468256382456" duration="5066000" />
-      <workItem from="1468299080816" duration="9417000" />
-      <workItem from="1468320897849" duration="3275000" />
-      <workItem from="1468375293959" duration="612000" />
+      <updated>1468405087636</updated>
+      <workItem from="1468405089212" duration="4653000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18370000" />
+    <option name="totallyTimeSpent" value="4653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="Vcs.Log.UiProperties">
-    <option name="RECENTLY_FILTERED_USER_GROUPS">
-      <collection />
-    </option>
-    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-      <collection />
-    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -411,301 +404,60 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-includes/formatting.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="3589" column="9" selection-start-line="3589" selection-start-column="9" selection-end-line="3589" selection-end-column="9" />
+          <folding>
+            <marker date="1466495526000" expanded="true" signature="85662:85691" placeholder="..." />
+            <marker date="1466495526000" expanded="true" signature="155458:155487" placeholder="..." />
+            <marker date="1466495526000" expanded="true" signature="156045:156074" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="e#10#357#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="n#add_my_custom_menu#0;n#kzController#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/list-table-example.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#306#1037#0#PHP" expanded="false" />
-            <element signature="e#1041#1413#0#PHP" expanded="false" />
-            <element signature="e#1417#2527#0#PHP" expanded="false" />
-            <element signature="e#3450#4042#0#PHP" expanded="false" />
-            <element signature="e#4067#5649#0#PHP" expanded="false" />
-            <element signature="e#4086#4259#1#PHP" expanded="false" />
-            <element signature="e#4273#4461#1#PHP" expanded="false" />
-            <element signature="e#4475#4662#1#PHP" expanded="false" />
-            <element signature="e#4676#4856#1#PHP" expanded="false" />
-            <element signature="e#4870#5049#1#PHP" expanded="false" />
-            <element signature="e#5063#5254#1#PHP" expanded="false" />
-            <element signature="e#5268#5446#1#PHP" expanded="false" />
-            <element signature="e#5460#5638#1#PHP" expanded="false" />
-            <element signature="e#5657#5958#0#PHP" expanded="false" />
-            <element signature="n#__construct#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#6073#6338#0#PHP" expanded="false" />
-            <element signature="e#6094#6336#1#PHP" expanded="false" />
-            <element signature="e#6353#7677#0#PHP" expanded="false" />
-            <element signature="n#column_default#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#7736#7984#0#PHP" expanded="false" />
-            <element signature="e#7797#7857#0#PHP" expanded="false" />
-            <element signature="e#7870#7922#0#PHP" expanded="false" />
-            <element signature="e#7997#8984#0#PHP" expanded="false" />
-            <element signature="n#column_title#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#9075#9341#0#PHP" expanded="false" />
-            <element signature="e#9403#9597#0#PHP" expanded="false" />
-            <element signature="e#9611#10171#0#PHP" expanded="false" />
-            <element signature="n#column_cb#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#10218#10516#0#PHP" expanded="false" />
-            <element signature="e#10530#11386#0#PHP" expanded="false" />
-            <element signature="n#get_columns#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#11434#11653#0#PHP" expanded="false" />
-            <element signature="e#11692#12723#0#PHP" expanded="false" />
-            <element signature="n#get_sortable_columns#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#12790#12993#0#PHP" expanded="false" />
-            <element signature="e#13041#13899#0#PHP" expanded="false" />
-            <element signature="n#get_bulk_actions#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#13953#14005#0#PHP" expanded="false" />
-            <element signature="e#14044#14432#0#PHP" expanded="false" />
-            <element signature="n#process_bulk_action#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#14545#14680#0#PHP" expanded="false" />
-            <element signature="e#14702#15488#0#PHP" expanded="false" />
-            <element signature="n#prepare_items#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#15602#15681#0#PHP" expanded="false" />
-            <element signature="e#15731#16143#0#PHP" expanded="false" />
-            <element signature="e#16289#16587#0#PHP" expanded="false" />
-            <element signature="e#16684#16863#0#PHP" expanded="false" />
-            <element signature="e#16928#17495#0#PHP" expanded="false" />
-            <element signature="e#17567#17981#0#PHP" expanded="false" />
-            <element signature="n#usort_reorder#0;n#!!block;n#prepare_items#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#18501#19233#0#PHP" expanded="false" />
-            <element signature="e#19268#19488#0#PHP" expanded="false" />
-            <element signature="e#19552#19869#0#PHP" expanded="false" />
-            <element signature="e#19933#20141#0#PHP" expanded="false" />
-            <element signature="e#20253#20404#0#PHP" expanded="false" />
-            <element signature="e#20461#20561#0#PHP" expanded="false" />
-            <element signature="e#20570#20950#0#PHP" expanded="false" />
-            <element signature="e#20598#20948#1#PHP" expanded="false" />
-            <element signature="e#20966#21263#0#PHP" expanded="false" />
-            <element signature="e#21476#22030#0#PHP" expanded="false" />
-            <marker date="1468324227942" expanded="false" signature="9430:9442" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="31" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#10#357#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-          <folding>
-            <element signature="e#10#357#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#add_my_custom_menu#0;n#kzController#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/demo-plugin/demo-plugin.php" />
-    <entry file="file://$PROJECT_DIR$/wp-admin/js/theme.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/js/updates.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/link-add.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" column="17" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/demo-plugin/demo-plugin.php" />
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-343">
-          <caret line="36" column="53" selection-start-line="36" selection-start-column="53" selection-end-line="36" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-admin/user-new.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/views/create-block.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/kz-demo.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/wp-mvc/core/controllers/mvc_public_controller.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/controllers/blocks_controller.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/controllers/admin/admin_blocks_controller.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/kz_demo_loader.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/kz_demo.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/models/blocks.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/views/admin/blocks/add.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/views/admin/blocks/edit.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/views/blocks/_item.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/views/blocks/index.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/plugin-slug/includes/admin-notice-helper/admin-notice.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-demo/app/views/blocks/show.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/readme.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        <state relative-caret-position="1008">
+          <caret line="48" column="53" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="53" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/kz-crawler.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/block-controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="-5922">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#10#357#0#PHP" expanded="true" />
+            <marker date="1468400341676" expanded="true" signature="3787:3799" placeholder="..." />
+            <marker date="1468400341676" expanded="true" signature="15264:15278" placeholder="SELECT * FRO... ${$table_name}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/models/blocks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1468408430927" expanded="true" signature="216:767" placeholder="CREATE TABLE... ${$table_name}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/kz-crawler/app/controllers/kz-controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
-          <folding>
-            <element signature="n#add_my_custom_menu#0;n#kzController#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/WP_List_Table-Class-Plugin-Example-master/plugin.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/plugins/custom-list-table-example/list-table-example.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="491" column="31" selection-start-line="491" selection-start-column="31" selection-end-line="491" selection-end-column="31" />
-          <folding>
-            <element signature="e#306#1037#0#PHP" expanded="false" />
-            <element signature="e#1041#1413#0#PHP" expanded="false" />
-            <element signature="e#1417#2527#0#PHP" expanded="false" />
-            <element signature="e#3450#4042#0#PHP" expanded="false" />
-            <element signature="e#4067#5649#0#PHP" expanded="false" />
-            <element signature="e#4086#4259#1#PHP" expanded="false" />
-            <element signature="e#4273#4461#1#PHP" expanded="false" />
-            <element signature="e#4475#4662#1#PHP" expanded="false" />
-            <element signature="e#4676#4856#1#PHP" expanded="false" />
-            <element signature="e#4870#5049#1#PHP" expanded="false" />
-            <element signature="e#5063#5254#1#PHP" expanded="false" />
-            <element signature="e#5268#5446#1#PHP" expanded="false" />
-            <element signature="e#5460#5638#1#PHP" expanded="false" />
-            <element signature="e#5657#5958#0#PHP" expanded="false" />
-            <element signature="n#__construct#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#6073#6338#0#PHP" expanded="false" />
-            <element signature="e#6094#6336#1#PHP" expanded="false" />
-            <element signature="e#6353#7677#0#PHP" expanded="false" />
-            <element signature="n#column_default#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#7736#7984#0#PHP" expanded="false" />
-            <element signature="e#7797#7857#0#PHP" expanded="false" />
-            <element signature="e#7870#7922#0#PHP" expanded="false" />
-            <element signature="e#7997#8984#0#PHP" expanded="false" />
-            <element signature="n#column_title#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#9075#9341#0#PHP" expanded="false" />
-            <element signature="e#9403#9597#0#PHP" expanded="false" />
-            <element signature="e#9611#10171#0#PHP" expanded="false" />
-            <element signature="n#column_cb#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#10218#10516#0#PHP" expanded="false" />
-            <element signature="e#10530#11386#0#PHP" expanded="false" />
-            <element signature="n#get_columns#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#11434#11653#0#PHP" expanded="false" />
-            <element signature="e#11692#12723#0#PHP" expanded="false" />
-            <element signature="n#get_sortable_columns#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#12790#12993#0#PHP" expanded="false" />
-            <element signature="e#13041#13899#0#PHP" expanded="false" />
-            <element signature="n#get_bulk_actions#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#13953#14005#0#PHP" expanded="false" />
-            <element signature="e#14044#14432#0#PHP" expanded="false" />
-            <element signature="n#process_bulk_action#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#14545#14680#0#PHP" expanded="false" />
-            <element signature="e#14702#15488#0#PHP" expanded="false" />
-            <element signature="n#prepare_items#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#15602#15681#0#PHP" expanded="false" />
-            <element signature="e#15731#16143#0#PHP" expanded="false" />
-            <element signature="e#16289#16587#0#PHP" expanded="false" />
-            <element signature="e#16684#16863#0#PHP" expanded="false" />
-            <element signature="e#16928#17495#0#PHP" expanded="false" />
-            <element signature="e#17567#17981#0#PHP" expanded="false" />
-            <element signature="n#usort_reorder#0;n#!!block;n#prepare_items#0;n#TT_Example_List_Table#0;n#!!top" expanded="false" />
-            <element signature="e#18501#19233#0#PHP" expanded="false" />
-            <element signature="e#19268#19488#0#PHP" expanded="false" />
-            <element signature="e#19552#19869#0#PHP" expanded="false" />
-            <element signature="e#19933#20141#0#PHP" expanded="false" />
-            <element signature="e#20253#20404#0#PHP" expanded="false" />
-            <element signature="e#20461#20561#0#PHP" expanded="false" />
-            <element signature="e#20570#20950#0#PHP" expanded="false" />
-            <element signature="e#20598#20948#1#PHP" expanded="false" />
-            <element signature="e#20966#21263#0#PHP" expanded="false" />
-            <element signature="e#21476#22030#0#PHP" expanded="false" />
-            <marker date="1468324227942" expanded="false" signature="9430:9442" placeholder="..." />
-          </folding>
+        <state relative-caret-position="455">
+          <caret line="93" column="81" selection-start-line="93" selection-start-column="81" selection-end-line="93" selection-end-column="81" />
+          <folding />
         </state>
       </provider>
     </entry>
