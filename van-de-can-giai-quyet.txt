@@ -12,6 +12,7 @@
 - tu dong them internal link
 - Tự động tạo tag bài viết
 - Thêm trích dẫn nguồn bài viết
+- xử lý tên ảnh có dấu tiếng việt
 
 
 
