@@ -12,8 +12,8 @@ class kz_Blocks_Table extends WP_List_Table {
 
         //Set parent defaults
         parent::__construct( array(
-            'singular'  => 'movie',     //singular name of the listed records
-            'plural'    => 'movies',    //plural name of the listed records
+            'singular'  => 'block',     //singular name of the listed records
+            'plural'    => 'blocks',    //plural name of the listed records
             'ajax'      => false        //does this table support ajax?
         ) );
 
@@ -97,7 +97,7 @@ class kz_Blocks_Table extends WP_List_Table {
     function column_cb($item){
         return sprintf(
             '<input type="checkbox" name="%1$s[]" value="%2$s" />',
-            /*$1%s*/ $this->_args['id'],  //Let's simply repurpose the table's singular label ("movie")
+            /*$1%s*/ $this->_args['singular'],  //Let's simply repurpose the table's singular label ("movie")
             /*$2%s*/ $item->id                //The value of the checkbox should be the record's id
         );
     }
@@ -167,7 +167,8 @@ class kz_Blocks_Table extends WP_List_Table {
      **************************************************************************/
     function get_bulk_actions() {
         $actions = array(
-            'delete'    => 'Delete'
+            'delete'    => 'Delete',
+            'run'    => 'Run Crawler',
         );
         return $actions;
     }
@@ -185,6 +186,14 @@ class kz_Blocks_Table extends WP_List_Table {
         //Detect when a bulk action is being triggered...
         if( 'delete'===$this->current_action() ) {
             wp_die('Items deleted (or they would be if we had items to delete)!');
+        }
+
+        if('run'===$this->current_action()){
+
+            $crawlerCtr = new crawlerController();
+            foreach($_GET['block'] as $block_id) {
+                $crawlerCtr->craw($block_id);
+            }
         }
 
     }
