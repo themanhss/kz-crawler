@@ -26,7 +26,7 @@ class crawlerController {
 
         $html = file_get_html($link);
 
-        $detail_item = $html->find($detail_news_pattern,5)->href;
+        $detail_item = $html->find($detail_news_pattern,2)->href;
 
         $post = array();
 
@@ -37,6 +37,12 @@ class crawlerController {
         foreach($detail_link->find($title_pattern) as $element)
         {
             $post['title'] = trim($element->plaintext); // Chỉ lấy phần text
+        }
+
+//        var_dump($post['title']); die();
+        // Check if post exits
+        if($this->wp_exist_page_by_title($post['title'])){
+            var_dump('Post exits'); die();
         }
 
         // Get main content
@@ -92,16 +98,15 @@ class crawlerController {
 
 
         $val = array(
-            'post_title'    => $post['title'],
+            'post_title'    => mysql_real_escape_string($post['title']),
             'post_content'  => $post['content'],
             'post_status'   => 'publish',
             'post_author'   => 1,
-            'post_category' => array( 2 )
+            'post_category' => array( $block->category_id )
         );
 
         $posts = wp_insert_post($val);
 
-        var_dump($posts);die();
     }
 
     /*
@@ -130,6 +135,20 @@ class crawlerController {
 
         return $string;
 
+    }
+
+    /*
+     * Check if post exits
+     *
+     * */
+    public function wp_exist_page_by_title($title_str) {
+        global $wpdb;
+        $post_table = $wpdb->prefix.'posts';
+
+        $query = "SELECT ID FROM $post_table WHERE post_title = '" . $title_str . "' && post_status = 'publish'";
+        $result =  $wpdb->get_row($query);
+
+        return $result;
     }
 
 }

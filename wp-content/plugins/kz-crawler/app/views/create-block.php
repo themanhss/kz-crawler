@@ -4,14 +4,18 @@ class createBlockView {
 
 
     public static function render(){
+
+        $block_model = new blocksModel();
+        $categories = $block_model->getAllCategory();
+
         ?>
-            <h2>Create New Block</h2>
+         <h2>Create New Block</h2>
         <?php
         echo '<form action="' . esc_url( $_SERVER['REQUEST_URI'] ) . '" method="post">';
         echo '<p>';
 
         echo 'Name<br/>';
-        echo '<input type="text" name="name" pattern="[a-zA-Z0-9 ]+" value="' . ( isset( $_POST["name"] ) ? esc_attr( $_POST["name"] ) : '' ) . '" size="40" />';
+        echo '<input type="text" name="name" value="' . ( isset( $_POST["name"] ) ? esc_attr( $_POST["name"] ) : '' ) . '" size="40" />';
         echo '</p>';
         echo '<p>';
 
@@ -47,6 +51,16 @@ class createBlockView {
 
         echo 'Except Pattern<br/>';
         echo '<input type="text" name="except-pattern" value="' . ( isset( $_POST["except-pattern"] ) ? esc_attr( $_POST["except-pattern"] ) : '' ) . '" size="40" />';
+        echo '</p>';
+        echo '<p>';
+
+        echo 'Select Category<br/>';
+        echo '<select name="category_id">';
+            foreach ($categories as $category){?>
+                <option value="<?php echo $category->term_id ?>"><?php echo $category->name ?></option>
+           <?php }
+
+        echo '</select>';
         echo '</p>';
         echo '<p>';
 
