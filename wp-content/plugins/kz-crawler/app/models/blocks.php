@@ -26,4 +26,39 @@ class blocksModel
         dbDelta( $sql );
     }
 
+    public function saveBlock($name, $domain, $url_category, $list_pattern, $a_pattern, $title_pattern, $content_pattern, $except_pattern,$category_id  ){
+        global $wpdb;
+        $table_name = $wpdb->prefix . 'blocks';
+
+        $result = $wpdb->insert(
+            $table_name,
+            array(
+                'name' => $name,
+                'domain' => $domain,
+                'url_category' =>$url_category,
+                'list_pattern' =>$list_pattern,
+                'a_pattern' =>$a_pattern,
+                'title_pattern' =>$title_pattern,
+                'content_pattern' =>$content_pattern,
+                'except_pattern' =>$except_pattern,
+                'category_id' =>$category_id,
+                'created_date' => current_time( 'mysql' ),
+            )
+        );
+
+        if($result) return true;
+
+        return false;
+    }
+
+    public function getAllCategory(){
+        $args = array(
+            'orderby' => 'id',
+            'hide_empty'=> 0
+        );
+        $categories = get_categories($args);
+
+        return $categories;
+    }
+
 }

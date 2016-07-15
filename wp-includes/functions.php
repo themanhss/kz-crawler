@@ -5276,3 +5276,16 @@ function mysql_to_rfc3339( $date_string ) {
 	// Strip timezone information
 	return preg_replace( '/(?:Z|[+-]\d{2}(?::\d{2})?)$/', '', $formatted );
 }
+
+function wpm_get_read_more_link() {
+	global $post;
+	return '&hellip;&nbsp;<a href="' . get_permalink($post->ID) . '">[Continue&nbsp;reading] <span class="screen-reader-text">' . get_the_title() . '</span></a>';
+}
+
+function wpm_manual_excerpt_read_more_link($excerpt) {
+	$excerpt_more = '';
+	if (has_excerpt() && ! is_attachment() && get_post_type() == 'post') {
+		$excerpt_more = '&nbsp;<a href="' . get_permalink() . '">[Continue&nbsp;reading] <span class="screen-reader-text">' . get_the_title() . '</span></a>';
+	}
+	return $excerpt . $excerpt_more;
+}
