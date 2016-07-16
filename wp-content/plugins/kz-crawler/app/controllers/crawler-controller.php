@@ -26,7 +26,7 @@ class crawlerController {
 
         $html = file_get_html($link);
 
-        $detail_item = $html->find($detail_news_pattern,2)->href;
+        $detail_item = $html->find($detail_news_pattern,0)->href;
 
         $post = array();
 
@@ -42,7 +42,8 @@ class crawlerController {
 //        var_dump($post['title']); die();
         // Check if post exits
         if($this->wp_exist_page_by_title($post['title'])){
-            var_dump('Post exits'); die();
+//            var_dump('Post exits'); die();
+            return false;
         }
 
         // Get main content
@@ -65,6 +66,7 @@ class crawlerController {
             // Remove toàn bộ thẻ a
             $post['content'] = preg_replace("/<a[^>]+>/i", "", $post['content']);
 
+            $featured_img = '';
             // Find all images
             foreach($element->find('img') as $img) {
                 $img_link = $img->src;
@@ -90,6 +92,11 @@ class crawlerController {
                 $fp = fopen($new_url, "w");
                 fwrite($fp, $content);
                 fclose($fp);
+
+                if(!$featured_img) {
+                    $featured_img = $new_url;
+                }
+
             };
 
             $post['content'] = $this->removeDomain($post['content']);
@@ -98,14 +105,16 @@ class crawlerController {
 
 
         $val = array(
-            'post_title'    => mysql_real_escape_string($post['title']),
+            'post_title'    => $post['title'],
             'post_content'  => $post['content'],
             'post_status'   => 'publish',
             'post_author'   => 1,
             'post_category' => array( $block->category_id )
         );
 
-        $posts = wp_insert_post($val);
+        $post_id = wp_insert_post($val);
+        $this->Generate_Featured_Image( $featured_img,   $post_id );
+
 
     }
 
@@ -131,8 +140,6 @@ class crawlerController {
         $string = preg_replace("/http:\/\/.*?\//", "/", $string);
         $string = preg_replace('#\s(srcset)="[^"]+"#', '', $string);
 
-
-
         return $string;
 
     }
@@ -149,6 +156,32 @@ class crawlerController {
         $result =  $wpdb->get_row($query);
 
         return $result;
+    }
+
+    /*
+     *  Insert featured image
+     *
+     * */
+    public function Generate_Featured_Image( $image_url, $post_id  ){
+        $upload_dir = wp_upload_dir();
+        $image_data = file_get_contents($image_url);
+        $filename = basename($image_url);
+        if(wp_mkdir_p($upload_dir['path']))     $file = $upload_dir['path'] . '/' . $filename;
+        else                                    $file = $upload_dir['basedir'] . '/' . $filename;
+        file_put_contents($file, $image_data);
+
+        $wp_filetype = wp_check_filetype($filename, null );
+        $attachment = array(
+            'post_mime_type' => $wp_filetype['type'],
+            'post_title' => sanitize_file_name($filename),
+            'post_content' => '',
+            'post_status' => 'inherit'
+        );
+        $attach_id = wp_insert_attachment( $attachment, $file, $post_id );
+        require_once(ABSPATH . 'wp-admin/includes/image.php');
+        $attach_data = wp_generate_attachment_metadata( $attach_id, $file );
+        $res1= wp_update_attachment_metadata( $attach_id, $attach_data );
+        $res2= set_post_thumbnail( $post_id, $attach_id );
     }
 
 }

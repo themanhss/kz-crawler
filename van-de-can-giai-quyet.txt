@@ -1,0 +1,23 @@
+- them phan "read more" vao phan dau (cài plug in Auto More Tag)
+- remove tat ca link trong content lay dc
+- loc bai viet da lay thi ko crawler nua
+- luu anh vao server host chinh blog do
+- assign cho tung danh muc trong bai viet cho tung website
+- Tạo cronjob cho tự động chạy lấy bài viết
+- Tự động set ảnh "featured image" cho bài post
+
+*************
+
+- chen backlink vao bai viet
+- tu dong them internal link
+- Tự động tạo tag bài viết
+- Thêm trích dẫn nguồn bài viết
+- xử lý tên ảnh có dấu tiếng việt
+
+
+
+
+====================
+
+Plugin tạo internal link : http://seocam.edu.vn/plugin-seo-auto-links/
+relate post : https://wordpress.org/plugins/seo-alrp/
