@@ -64,6 +64,18 @@ class createBlockView {
         echo '</p>';
         echo '<p>';
 
+        echo 'Chọn tần suất<br/>';
+
+        echo '<select name="cron_type">';
+            echo  '<option value="1">Ngày chạy 1 lần</option>';
+            echo  '<option value="2">Tuần chạy 1 lần</option>';
+            echo  '<option value="3">Tháng chạy 1 lần</option>';
+        echo '</select>';
+
+        echo '</p>';
+        echo '<p>';
+
+
         echo '</p>';
         echo '<p><input type="submit" name="cf-submitted" value="Add Block"></p>';
         echo '</form>';

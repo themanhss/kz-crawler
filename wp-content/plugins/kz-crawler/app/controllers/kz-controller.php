@@ -87,11 +87,12 @@ class kzController extends WP_List_Table
             $content_pattern    = sanitize_text_field( $_POST["content-pattern"] );
             $except_pattern    = sanitize_text_field( $_POST["except-pattern"] );
             $category_id    = sanitize_text_field( $_POST["category_id"] );
+            $cron_type    = sanitize_text_field( $_POST["cron_type"] );
 
 
             // If email has been process for sending, display a success message
             $blocks_model = new blocksModel();
-            if ( $blocks_model->saveBlock($name, $domain, $url_category, $list_pattern, $a_pattern, $title_pattern, $content_pattern, $except_pattern, $category_id) ) {
+            if ( $blocks_model->saveBlock($name, $domain, $url_category, $list_pattern, $a_pattern, $title_pattern, $content_pattern, $except_pattern, $category_id, $cron_type) ) {
                 wp_redirect('http://blog.local/wp-admin/admin.php?page=kz-crawler');
             } else {
                 echo 'An unexpected error occurred';

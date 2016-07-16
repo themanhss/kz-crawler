@@ -26,7 +26,7 @@ class blocksModel
         dbDelta( $sql );
     }
 
-    public function saveBlock($name, $domain, $url_category, $list_pattern, $a_pattern, $title_pattern, $content_pattern, $except_pattern,$category_id  ){
+    public function saveBlock($name, $domain, $url_category, $list_pattern, $a_pattern, $title_pattern, $content_pattern, $except_pattern,$category_id ,$cron_type ){
         global $wpdb;
         $table_name = $wpdb->prefix . 'blocks';
 
@@ -42,6 +42,7 @@ class blocksModel
                 'content_pattern' =>$content_pattern,
                 'except_pattern' =>$except_pattern,
                 'category_id' =>$category_id,
+                'cron_type' =>$cron_type,
                 'created_date' => current_time( 'mysql' ),
             )
         );

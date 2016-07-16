@@ -48,6 +48,7 @@ class crawlerController {
 
         // Get main content
 
+
         foreach($detail_link->find($description_pattern) as $element)
         {
 
@@ -65,6 +66,7 @@ class crawlerController {
 
             // Remove toàn bộ thẻ a
             $post['content'] = preg_replace("/<a[^>]+>/i", "", $post['content']);
+
 
             $featured_img = '';
             // Find all images
