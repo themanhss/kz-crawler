@@ -18,6 +18,8 @@ class blocksModel
                 title_pattern  varchar(255) NULL ,
                 content_pattern  varchar(255) NULL ,
                 except_pattern  varchar(255) NULL ,
+                category_id int NULL ,
+                cron_type int NULL ,
                 created_date  datetime NULL ,
                 PRIMARY KEY (id)
             ) $charset_collate;";

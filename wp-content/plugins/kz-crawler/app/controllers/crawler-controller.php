@@ -31,6 +31,12 @@ class crawlerController {
         $post = array();
 
 
+
+        if (!filter_var($detail_item, FILTER_VALIDATE_URL)) {
+            $detail_item = $block->domain.$detail_item;
+        }
+
+
         $detail_link = file_get_html($detail_item);
 
         // Get Title
@@ -43,11 +49,10 @@ class crawlerController {
         // Check if post exits
         if($this->wp_exist_page_by_title($post['title'])){
 //            var_dump('Post exits'); die();
-            return false;
+//            return false;
         }
 
         // Get main content
-
 
         foreach($detail_link->find($description_pattern) as $element)
         {
@@ -71,7 +76,13 @@ class crawlerController {
             $featured_img = '';
             // Find all images
             foreach($element->find('img') as $img) {
+
+
                 $img_link = $img->src;
+
+                // Trim / first in link
+                $img_link = ltrim($img_link, '/');
+
 
                 // Get Path to image
                 $new_url = ABSPATH.ltrim(parse_url($img_link, PHP_URL_PATH), '/');
@@ -88,6 +99,10 @@ class crawlerController {
                 }
 
                 // save Image localhost
+
+                if (strpos($img_link,'http://') === false){
+                    $img_link = 'http://'.$img_link;
+                }
 
                 $content = file_get_contents($img_link);
 
