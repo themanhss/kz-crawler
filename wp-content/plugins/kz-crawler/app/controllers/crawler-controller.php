@@ -49,7 +49,7 @@ class crawlerController {
         // Check if post exits
         if($this->wp_exist_page_by_title($post['title'])){
 //            var_dump('Post exits'); die();
-//            return false;
+            return false;
         }
 
         // Get main content
