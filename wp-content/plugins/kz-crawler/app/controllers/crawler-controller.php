@@ -13,6 +13,44 @@ class crawlerController {
 
     public function craw($block_id){
 
+        // Save link to commom DB
+        $servername = "www.db4free.net";
+        $username = "themanhss";
+        $password = "themanh2311";
+        $dbname  = 'kz_manager';
+
+        // Create connection
+        $conn = mysqli_connect($servername, $username, $password, $dbname);
+        // Check connection
+        if (!$conn) {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+
+      /*  $sql = "INSERT INTO links (url, title, description, created_at, updated_at)VALUES ('".$post_url."', null, null, '2016-07-28 09:22:18', '2016-07-28 09:22:18')";
+
+        if (mysqli_query($conn, $sql)) {
+            echo "New record created successfully";
+        } else {
+            echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+        }*/
+
+        $sql = "SELECT * FROM links";
+        $result = $conn->query($sql);
+
+        if ($result->num_rows > 0) {
+            // output data of each row
+            while($row = $result->fetch_assoc()) {
+                echo "id: " . $row["id"]. " - Url: " . $row["url"]. " " . $row["title"]. "<br>";
+            }
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
+
+        die();
+
+        // Begin craw
+
         $block = $this->getBlockByID($block_id);
 
 
@@ -49,7 +87,7 @@ class crawlerController {
         // Check if post exits
         if($this->wp_exist_page_by_title($post['title'])){
 //            var_dump('Post exits'); die();
-            return false;
+//            return false;
         }
 
         // Get main content
@@ -131,6 +169,10 @@ class crawlerController {
 
         $post_id = wp_insert_post($val);
         $this->Generate_Featured_Image( $featured_img,   $post_id );
+
+        $post_url =  get_permalink( $post_id );
+
+
 
 
     }
