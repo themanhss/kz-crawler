@@ -1,0 +1,32 @@
+- auto post to blogspot
+- auto share Link to g+ by Link (multi google account)
+
+***************
+- setupDB
+- save Link blogspot to DB
+- save Link blog ve tinh to DB
+
+- auto share to g+ community (use file to write list url community)
+
+
+
+**********
+
+https://www.db4free.net
+
+username : themanhss
+pw : themanh2311
+database : kz_manager
+
+
+*********
+
+mysql6.000webhost.com
+username : a3898729_kz
+		a3898729_bk
+pw : themanh2311
+
+database : a3898729_kz
+
+
+*********
